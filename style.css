@@ -1,0 +1,33 @@
+body {
+    background-color: #222222;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin: 50px;
+}
+
+.jogadores {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.jogadores img{
+    width: 100px;
+    border-radius: 50%;
+    border: 5px #ffffff solid;
+    margin-top: -10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.jogadores img:hover{
+    width: 110px;
+    border: 5px #f16262 dashed;
+}
+
+.jogadores p{
+    font-size: 20px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
